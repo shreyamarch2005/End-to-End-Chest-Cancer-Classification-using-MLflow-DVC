@@ -1,0 +1,13 @@
+prefix=d:/archive/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/.conda/Library
+exec_prefix=d:/archive/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/.conda/Library
+libdir=d:/archive/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/.conda/Library/lib
+sharedlibdir=d:/archive/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/.conda/Library/lib
+includedir=d:/archive/End-to-End-Chest-Cancer-Classification-using-MLflow-DVC/.conda/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
